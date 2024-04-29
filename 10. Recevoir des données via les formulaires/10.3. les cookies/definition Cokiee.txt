@@ -1,0 +1,15 @@
+Un cookie est un fichier texte susceptible d’être enregistré dans un
+espace dédié du disque dur de votre terminal (notamment
+l’équipement matériel (ordinateur, tablette, smartphone, etc.…) que
+vous utilisez pour consulter ou voir s’afficher un site, une application,
+un contenu publicitaire) à l’occasion de la consultation d’un service
+en ligne grâce à votre logiciel de navigation.
+Un fichier cookie permet à son émetteur d’identifier le terminal dans
+lequel il est enregistré, pendant la durée de validité ou
+d’enregistrement dudit cookie.
+Les cookies sont donc des données utilisées par un serveur pour
+envoyer des informations d’état au navigateur d’un utilisateur, et par
+ce navigateur pour renvoyer des informations d’état au serveur
+d’origine. Les informations d’état peuvent être, par exemple, un
+identifiant de session, une langue, une date d’expiration, un domaine
+de réponse, etc.

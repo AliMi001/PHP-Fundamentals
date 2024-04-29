@@ -1,0 +1,10 @@
+Les sessions en PHP sont un mécanisme permettant de stocker des données utilisateur persistantes entre différentes pages web ou visites sur un site. Contrairement aux cookies qui sont stockés sur le navigateur de l'utilisateur, les sessions sont stockées sur le serveur.
+
+Voici comment fonctionnent les sessions en PHP :
+
+1. Démarrage de la session : Avant d'utiliser des sessions dans PHP, vous devez démarrer une session en utilisant la fonction session_start(). Cette fonction doit être appelée au début de chaque page où vous souhaitez utiliser des sessions.
+2. Stockage des données de session : Une fois la session démarrée, vous pouvez stocker des données dans la session en utilisant le tableau associatif $_SESSION. Par exemple, $_SESSION['pseudo'] = 'utilisateur123'; stocke le pseudo de l'utilisateur dans la session.
+3. Accès aux données de session : Les données stockées dans la session peuvent être récupérées à partir de n'importe quelle page en utilisant le même tableau $_SESSION. Par exemple, echo $_SESSION['pseudo']; affichera le pseudo de l'utilisateur.
+4. Fin de la session : Vous pouvez détruire une session en appelant session_destroy(). Cela supprimera toutes les données de session. Vous pouvez également supprimer des variables spécifiques de session en utilisant unset($_SESSION['variable']);.
+5. Gestion des sessions : PHP utilise généralement des cookies de session pour suivre les sessions des utilisateurs. Ces cookies contiennent un identifiant de session unique qui est utilisé pour identifier la session sur le serveur. Vous pouvez également configurer PHP pour stocker les identifiants de session dans l'URL si les cookies ne sont pas disponibles.
+Les sessions sont souvent utilisées pour stocker des informations d'identification de l'utilisateur, des préférences utilisateur, des paniers d'achat, etc. Elles offrent un moyen pratique et sécurisé de maintenir l'état de l'utilisateur sur un site web.
